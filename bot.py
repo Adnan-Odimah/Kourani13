@@ -3,6 +3,7 @@ import pandas as pd
 import time
 import os
 from ta.momentum import RSIIndicator
+
 from ta.trend import SMAIndicator
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
